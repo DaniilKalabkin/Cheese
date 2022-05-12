@@ -1,0 +1,13 @@
+C:\Users\Gigabyte\source\repos\Cheese\Cheese\bin\Debug\netcoreapp3.1\Cheese.exe
+C:\Users\Gigabyte\source\repos\Cheese\Cheese\bin\Debug\netcoreapp3.1\Cheese.deps.json
+C:\Users\Gigabyte\source\repos\Cheese\Cheese\bin\Debug\netcoreapp3.1\Cheese.runtimeconfig.json
+C:\Users\Gigabyte\source\repos\Cheese\Cheese\bin\Debug\netcoreapp3.1\Cheese.runtimeconfig.dev.json
+C:\Users\Gigabyte\source\repos\Cheese\Cheese\bin\Debug\netcoreapp3.1\Cheese.dll
+C:\Users\Gigabyte\source\repos\Cheese\Cheese\bin\Debug\netcoreapp3.1\Cheese.pdb
+C:\Users\Gigabyte\source\repos\Cheese\Cheese\obj\Debug\netcoreapp3.1\Cheese.csprojAssemblyReference.cache
+C:\Users\Gigabyte\source\repos\Cheese\Cheese\obj\Debug\netcoreapp3.1\Cheese.AssemblyInfoInputs.cache
+C:\Users\Gigabyte\source\repos\Cheese\Cheese\obj\Debug\netcoreapp3.1\Cheese.AssemblyInfo.cs
+C:\Users\Gigabyte\source\repos\Cheese\Cheese\obj\Debug\netcoreapp3.1\Cheese.csproj.CoreCompileInputs.cache
+C:\Users\Gigabyte\source\repos\Cheese\Cheese\obj\Debug\netcoreapp3.1\Cheese.dll
+C:\Users\Gigabyte\source\repos\Cheese\Cheese\obj\Debug\netcoreapp3.1\Cheese.pdb
+C:\Users\Gigabyte\source\repos\Cheese\Cheese\obj\Debug\netcoreapp3.1\Cheese.genruntimeconfig.cache
