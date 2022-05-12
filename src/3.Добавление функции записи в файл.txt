@@ -1,0 +1,51 @@
+using System;
+using System.IO;
+
+namespace Cheese
+{
+    class MilkFarm
+    {
+        static void Main(string[] args)
+        {
+            int n,m=0;
+            Console.Write("Введите кол-во элементов в массиве = ");
+            while (!int.TryParse(Console.ReadLine(), out n))
+            {
+                Console.Write("Ошибка ввода! Введитее ещё раз = ");
+            }
+            object[] Products = new object[n * 3];
+            Cheese sir = new Cheese();
+            for(int i=0; i<n; i++)
+            {
+                Console.Write("Введите марку сыра = ");
+                sir.marka = Console.ReadLine();
+                Products[m] = sir.marka; m++;
+                Console.Write("Введите производителя сыра = ");
+                sir.proizvoditel = Console.ReadLine();
+                Products[m] = sir.proizvoditel; m++;
+                Console.Write("Введите Процент жира = ");
+                while (!int.TryParse(Console.ReadLine(), out sir.prozentChira))
+                {
+                    Console.Write("Ошибка ввода! Введитее правильный тип данных = ");
+                }
+                Products[m] = sir.prozentChira;
+                m++;
+            }
+            StreamWriter f = new StreamWriter("test.txt");
+            m = 0;
+            for (int i = 0; i<n; i++)
+            {
+                f.WriteLine("");
+                f.WriteLine("Марка сыра: " + Products[m]); m++;
+                f.WriteLine("Производитель сыра: " + Products[m]); m++;
+                f.WriteLine("Процент жира: " + Products[m]); m++;
+            }
+            f.Close();
+        }
+    }
+    struct Cheese
+    {
+        public string marka, proizvoditel;
+        public int prozentChira;
+    }
+}
